@@ -63,9 +63,11 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				apple: {
-					DEFAULT: 'hsl(210, 100%, 50%)',
-					dark: 'hsl(211, 100%, 40%)',
-					light: 'hsl(210, 100%, 60%)',
+					DEFAULT: '#000000',
+					secondary: '#1d1d1f',
+					gray: '#f5f5f7',
+					blue: '#0071e3',
+					'blue-dark': '#0066cc',
 				}
 			},
 			borderRadius: {
@@ -97,5 +99,5 @@ export default {
 			}
 		}
 	},
-	plugins: [require("tailwindcss-animate")],
+	plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
 } satisfies Config;

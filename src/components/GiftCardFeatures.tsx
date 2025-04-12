@@ -11,7 +11,7 @@ const GiftCardFeatures = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div className="text-center">
             <div className="flex justify-center mb-6">
-              <Music size={40} className="text-apple-blue" />
+              <Music size={40} className="text-primary" />
             </div>
             <h3 className="text-xl font-medium mb-3">Музыка и развлечения</h3>
             <p className="text-muted-foreground">
@@ -21,7 +21,7 @@ const GiftCardFeatures = () => {
           
           <div className="text-center">
             <div className="flex justify-center mb-6">
-              <Gamepad2 size={40} className="text-apple-blue" />
+              <Gamepad2 size={40} className="text-primary" />
             </div>
             <h3 className="text-xl font-medium mb-3">Игры и приложения</h3>
             <p className="text-muted-foreground">
@@ -31,7 +31,7 @@ const GiftCardFeatures = () => {
           
           <div className="text-center">
             <div className="flex justify-center mb-6">
-              <Gift size={40} className="text-apple-blue" />
+              <Gift size={40} className="text-primary" />
             </div>
             <h3 className="text-xl font-medium mb-3">Товары и аксессуары</h3>
             <p className="text-muted-foreground">

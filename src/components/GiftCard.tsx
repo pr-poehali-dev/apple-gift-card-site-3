@@ -26,7 +26,7 @@ const GiftCard = ({ amount, imageSrc }: GiftCardProps) => {
         />
         <div className="p-6">
           <h3 className="text-xl font-medium mb-2">Apple Gift Card</h3>
-          <p className="text-2xl font-semibold text-apple-blue">{amount} ₽</p>
+          <p className="text-2xl font-semibold text-primary">{amount} ₽</p>
         </div>
       </CardContent>
       <CardFooter className="p-6 pt-0">
