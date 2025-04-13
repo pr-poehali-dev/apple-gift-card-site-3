@@ -44,7 +44,7 @@ const HomePage = () => {
             Открывает доступ к миллионам приложений, игр, музыке, фильмам, сериалам, 
             iCloud, и многому другому.
           </p>
-          <Link to="/instructions" className="apple-button text-base px-6 py-3">
+          <Link to="/instructions" className="inline-flex items-center justify-center rounded-full bg-apple-red px-6 py-3 text-white font-medium hover:bg-apple-red-dark transition-colors">
             Узнать больше
           </Link>
         </div>

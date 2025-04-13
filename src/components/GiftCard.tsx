@@ -30,7 +30,7 @@ const GiftCard = ({ amount, imageSrc }: GiftCardProps) => {
         </div>
       </CardContent>
       <CardFooter className="p-6 pt-0">
-        <Button className="apple-button w-full">
+        <Button className="w-full bg-apple-red hover:bg-apple-red-dark text-white">
           <ShoppingCart className="mr-2 h-4 w-4" />
           В корзину
         </Button>
