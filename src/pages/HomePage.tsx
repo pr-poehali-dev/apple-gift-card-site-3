@@ -21,7 +21,7 @@ const HomePage = () => {
               <Link to="/cards" key={index}>
                 <Card className="apple-card hover:shadow-xl transition-all">
                   <CardContent className="p-8 text-center">
-                    <div className="text-primary text-3xl font-semibold mb-4">
+                    <div className="text-apple-red text-3xl font-semibold mb-4">
                       {amount} ₽
                     </div>
                     <p className="text-muted-foreground">
