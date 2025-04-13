@@ -68,6 +68,8 @@ export default {
 					gray: '#f5f5f7',
 					blue: '#0071e3',
 					'blue-dark': '#0066cc',
+					red: '#ff2d55',
+					'red-dark': '#d70015'
 				}
 			},
 			borderRadius: {
